@@ -1,0 +1,27 @@
+.employees {
+  padding: 50px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: flex-start;
+
+  @media (max-width: $screen-md-max) {
+    padding: 25px 0;
+  }
+
+  &__single {
+    width: 33.33%;
+    margin: 0 15px;
+  }
+
+  button {
+    padding: 12px 20px;
+    background-color: $red;
+    color: $white;
+    border-color: $red;
+    font-size: 20px;
+    font-family: $f1;
+    cursor: pointer;
+    outline: 0;
+  }
+}

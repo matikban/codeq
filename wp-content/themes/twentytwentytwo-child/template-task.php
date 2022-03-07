@@ -47,5 +47,9 @@
 
         </div>
     </div>
+
+    <div class="employees container">
+        <button class="show_employees">Show employees</button>
+    </div>
 </div>
 <?php get_footer('custom'); ?>
