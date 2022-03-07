@@ -1,0 +1,39 @@
+h1 {
+  @include font(40px, 400, $black, none, 32px, 0.2px);
+  @media (max-width: $screen-xs-max) {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  @media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+    font-size: 34px;
+    line-height: 32px;
+  }
+}
+
+h3 {
+  @include font(28px, 400, $black, none, 32px, 0.14px);
+  @media (max-width: $screen-xs-max) {
+    font-size: 20px;
+    line-height: 24px;
+
+    @media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+      font-size: 23px;
+      line-height: 30px;
+    }
+  }
+}
+
+p {
+  @include font(20px, 400, $black, none, 28px, 0.1px);
+
+  @media (max-width: $screen-xs-max) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  @media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
