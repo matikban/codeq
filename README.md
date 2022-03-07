@@ -1,1 +1,1 @@
-Recruitment task - Mateusz Baniuk
+Recruitment task
