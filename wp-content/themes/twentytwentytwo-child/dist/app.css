@@ -216,6 +216,16 @@
   width: 33.33%;
   margin: 0 15px;
 }
+.employees button {
+  padding: 12px 20px;
+  background-color: #ff3a1f;
+  color: #ffffff;
+  border-color: #ff3a1f;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  outline: 0;
+}
 
 .container {
   max-width: 1173px;
