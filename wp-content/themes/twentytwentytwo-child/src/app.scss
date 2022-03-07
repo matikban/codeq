@@ -1,4 +1,17 @@
 @import "./scss/variables.scss";
 @import "./scss/mixins.scss";
 
+@import "./scss/templates/template-zadanie.scss";
+
+@import "./scss/components/numbers.scss";
+@import "./scss/components/employees.scss";
+
+@import "./scss/base/container.scss";
 @import "./scss/base/reset.scss";
+@import "./scss/base/typography.scss";
+
+html {
+  width: 100%;
+  margin: 0 auto;
+  font-family: $f1;
+}
